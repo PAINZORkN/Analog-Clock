@@ -9,7 +9,8 @@ getTime = () => {
     const minutes = now.getMinutes();
     const hours = now.getHours();
     const timeInterval = 6;
-    const getDay = document.getElementById('day').innerHTML = now.getDay()
+    const getDay = document.getElementById('day').innerHTML = now.getDate()
+  
     
     secondsHand.style.transform = 'rotate(' + (seconds * timeInterval) + 'deg)'
     minutesHand.style.transform = 'rotate(' + (minutes * timeInterval + seconds / 10) + 'deg)'
