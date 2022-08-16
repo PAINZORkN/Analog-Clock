@@ -10,6 +10,7 @@ getTime = () => {
     const hours = now.getHours();
     const timeInterval = 6;
     const getDay = document.getElementById('day').innerHTML = now.getDate()
+
   
     
     secondsHand.style.transform = 'rotate(' + (seconds * timeInterval) + 'deg)'

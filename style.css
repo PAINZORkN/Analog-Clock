@@ -133,16 +133,15 @@ body{
 
 .num12{ /* 12 */
     position: absolute;
-    left: 123px;
+    left: 121.5px;
     font-size: 20px;
-    margin-top: 3px;
     font-size: 26px;
 }
 
 .image{
     position: absolute;
     top: 30px;
-    left: 84px;   
+    left: 96px;   
 }
 
 .eagle{
@@ -165,6 +164,7 @@ body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 5px 0; 
     opacity: 75%;
+    color: #121212;
 } 
 
 #seconds-hand{
