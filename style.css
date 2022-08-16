@@ -39,6 +39,11 @@ body{
     color: var(--white);
 }
 
+.numbers .num3, .num6, .num9, .num12{
+    display: block;
+    font-family: 'Sector 034 Regular';
+}
+
 .num1{ /* 1 */
     position: absolute;
     right: 70px;
@@ -56,7 +61,7 @@ body{
 .num3{ /* 3 */
     position: absolute;
     right: 0;
-    bottom: 135px;
+    bottom: 124px;
     padding-right: 0.5em;
     font-size: 26px;
 }
@@ -80,7 +85,7 @@ body{
 
 .num6{ /* 6 */ 
     position: absolute;
-    left: 137px;
+    left: 128px;
     bottom: 0;
     padding-bottom: 0.1em;
     font-size: 26px;
@@ -106,7 +111,7 @@ body{
 .num9{ /* 9 */
     position: absolute;
     left: 0;
-    bottom: 135px;
+    bottom: 124px;
     padding-left: 0.5em;
     font-size: 26px;
 }
@@ -127,22 +132,28 @@ body{
 
 .num12{ /* 12 */
     position: absolute;
-    left: 136px;
+    left: 123px;
     font-size: 20px;
-    margin-top: 7px;
+    margin-top: 3px;
     font-size: 26px;
 }
 
 .image{
     position: absolute;
     top: 30px;
-    left: 90px;   
+    left: 84px;   
 }
 
-#day{
+.eagle{
     position: absolute;
-    right: 35px;
-    top: 158px;
+    top: 46px;
+    left: 87px;   
+}
+
+ #day{
+    position: absolute;
+    right: 75px;
+    top: 168px;
     border-radius: 2px;
     background-color: var(--white);
     height: 1em;
@@ -150,9 +161,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 5px 0; 
-}
+    opacity: 75%;
+} 
 
 #seconds-hand{
     position: absolute;
